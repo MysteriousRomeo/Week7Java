@@ -4,8 +4,12 @@ package stringHomework;
 
 public class Test01 {
     public static void main(String[] args) {
-        System.out.println("ayan");
+        String firstName = "Ayan";
+        String lastName = "Roy";
+        System.out.println("FirstName: " + firstName + "\nSurname: " + lastName);
+
+        //another way
+        System.out.println("--------------------------------------");
+        System.out.println("Ayan\nRoy");
     }
-
-
 }
